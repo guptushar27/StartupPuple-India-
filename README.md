@@ -167,9 +167,9 @@ From the project root, create and activate a virtual environment:
 **Windows PowerShell**
 
 ```powershell
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
+uv venv
+.venv\Scripts\activate
+uv pip install -r requirements.txt
 ```
 
 **macOS / Linux**
@@ -202,7 +202,6 @@ Open the local URL shown in the terminal (typically `http://localhost:8501`).
 .
 ├── dashboard.py                 # Seven-page Streamlit interface
 ├── startup_analysis.py          # Data preparation and analytical pipeline
-├── render_dashboard_preview.py  # Static preview image generation
 ├── requirements.txt             # Python dependencies
 ├── data/
 │   ├── raw/                     # Source data
