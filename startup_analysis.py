@@ -5,7 +5,7 @@ Where is India's startup ecosystem actually growing, which sectors are rising,
 and which state x sector combinations look like genuine hotspots?
 
 Data: DPIIT (Startup India) recognised startups by state x industry x year,
-      2016-2025 (data as of 31 May 2026). 9,932 rows, 36 states/UTs, 56 industries.
+      2016-2025 (data as of  30 september 2026). 9,932 rows, 36 states/UTs, 56 industries.
 
 This single file holds the whole analysis pipeline. Run it directly:
 
