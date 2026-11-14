@@ -1,5 +1,5 @@
 """
-India Startup Ecosystem - Interactive Dashboard
+StartupPulse India - Interactive Dashboard
 ===============================================
 Run with:   streamlit run dashboard.py
 
@@ -14,7 +14,7 @@ import streamlit as st
 
 import startup_analysis as sa
 
-st.set_page_config(page_title="India Startup Ecosystem Analytics", page_icon="🚀", layout="wide")
+st.set_page_config(page_title="StartupPulse India Ecosystem Analytics", page_icon="🚀", layout="wide")
 
 BLUE, ORANGE, GREY = "#2a6fdb", "#e8833a", "#9aa4b2"
 SEGMENT_COLORS = {"Established Leader": BLUE, "Maturing Hub": GREY,
@@ -66,7 +66,7 @@ def kpi_row(items):
 # 1. Overview
 # -----------------------------------------------------------------------------
 if page == "Overview":
-    st.title("India's Startup Ecosystem, 2017-2025")
+    st.title("StartupPulse India , 2017-2025")
     st.write("Where startups are being created, which sectors are rising, and how fast the map is changing.")
 
     d, dip = R["decentralisation"], R["dip_2024"]

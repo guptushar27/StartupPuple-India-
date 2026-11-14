@@ -1,5 +1,5 @@
 """
-India Startup Ecosystem Analytics
+ StartupPulse India Ecosystem Analytics
 =================================
 Where is India's startup ecosystem actually growing, which sectors are rising,
 and which state x sector combinations look like genuine hotspots?
